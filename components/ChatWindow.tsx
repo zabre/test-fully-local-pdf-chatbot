@@ -160,16 +160,16 @@ export function ChatWindow(props: {
     <>
       <div className="p-4 md:p-8 rounded bg-[#25252d] w-full max-h-[85%] overflow-hidden flex flex-col">
         <h1 className="text-3xl md:text-4xl mb-2 ml-auto mr-auto">
-          🏠 Fully Client-Side Chat Over Documents 🏠
+          🏴‍☠️ Chuckie4TB : Interrogez vos fichiers localement (sans fournir vos données à ChatGPT) 🏴‍☠️
         </h1>
         <ul>
             <span className="ml-2">
-              Pour lancer Chunkie4TB, vous avez besoin de télécharger l'application Ollama <a target="_blank" href="https://ollama.ai"> ici</a> de l'installer, puis d'ouvrir votre terminal (loupe en haut à droite --> Terminal) et de coller les lignes suivantes. Pour chaque ligne, ouvrir une nouvelle fenetre Terminal.
+              Pour lancer Chukie4TB, vous avez besoin de télécharger l'application Ollama <a target="_blank" href="https://ollama.ai"> ici</a> de l'installer, puis d'ouvrir votre terminal (loupe en haut à droite --> Terminal) et de coller les lignes suivantes dans la fenetre qui apparait. Pour chaque ligne à coller, ouvrir une nouvelle fenetre Terminal.
               <br/>
               <pre className="inline-flex px-2 py-1 my-2 rounded">$ OLLAMA_ORIGINS=https://webml-demo.vercel.app OLLAMA_HOST=127.0.0.1:11435 ollama serve
               </pre>
               <br/>
-              Et donc dans une nouvelle fenetre Terminal:
+              Et donc, dans une nouvelle fenetre Terminal:
               <br/>
               <pre className="inline-flex px-2 py-1 my-2 rounded">$ OLLAMA_HOST=127.0.0.1:11435 ollama pull mistral</pre>
               <br/>
@@ -179,7 +179,7 @@ export function ChatWindow(props: {
           <li className="text-l">
             🐙
             <span className="ml-2">
-              Ce projet est librement inspiré et très légèrement modifié de la version open-source de jacoblee93 à retrouver ici sur GitHub{" "}
+              Ce projet est librement inspiré, et très légèrement modifié par AO, de la version open-source de jacoblee93 à retrouver ici sur GitHub{" "}
               <a
                 href="https://github.com/jacoblee93/fully-local-pdf-chatbot"
                 target="_blank"
