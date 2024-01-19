@@ -164,20 +164,22 @@ export function ChatWindow(props: {
         </h1>
         <ul>
             <span className="ml-2">
-              The default LLM is Llama 2 run locally by Ollama. You&apos;ll need to install <a target="_blank" href="https://ollama.ai">the Ollama desktop app</a> and run the following commands to give this site access to the locally running model:
+              Pour lancer Chunkie4TB, vous avez besoin de télécharger l'application Ollama <a target="_blank" href="https://ollama.ai"> ici</a> de l'installer, puis d'ouvrir votre terminal (loupe en haut à droite --> Terminal) et de coller les lignes suivantes. Pour chaque ligne, ouvrir une nouvelle fenetre Terminal.
               <br/>
               <pre className="inline-flex px-2 py-1 my-2 rounded">$ OLLAMA_ORIGINS=https://webml-demo.vercel.app OLLAMA_HOST=127.0.0.1:11435 ollama serve
               </pre>
               <br/>
-              Then, in another window:
+              Et donc dans une nouvelle fenetre Terminal:
               <br/>
               <pre className="inline-flex px-2 py-1 my-2 rounded">$ OLLAMA_HOST=127.0.0.1:11435 ollama pull mistral</pre>
+              <br/>
+              Une fois que les deux fenetres sont lancées et affichent "successuf", vous pouvez vous télécharger votre fichier PDF ci-dessous.
+              <br/>
             </span>
           <li className="text-l">
             🐙
             <span className="ml-2">
-              This template is open source - you can see the source code and
-              deploy your own version{" "}
+              Ce projet est librement inspiré et très légèrement modifié de la version open-source de jacoblee93 à retrouver ici sur GitHub{" "}
               <a
                 href="https://github.com/jacoblee93/fully-local-pdf-chatbot"
                 target="_blank"
