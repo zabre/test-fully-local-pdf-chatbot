@@ -162,24 +162,7 @@ export function ChatWindow(props: {
         <h1 className="text-3xl md:text-4xl mb-2 ml-auto mr-auto">
           🏠 Fully Client-Side Chat Over Documents 🏠
         </h1>
-        <h3 className="text-xl mb-4 ml-auto mr-auto">
-          <a target="_blank" href="https://github.com/tantaraio/voy">🦀 Voy</a> + <a target="_blank" href="https://ollama.ai/">🦙 Ollama</a> + <a target="_blank" href="https://js.langchain.com">🦜🔗 LangChain.js</a> + <a target="_blank" href="https://huggingface.co/docs/transformers.js/index">🤗 Transformers.js</a>
-        </h3>
         <ul>
-          <li className="text-l">
-            🏡
-            <span className="ml-2">
-              Yes, it&apos;s another chat over documents implementation... but this one is entirely local!
-            </span>
-          </li>
-          <li className="hidden text-l md:block">
-            🌐
-            <span className="ml-2">
-              The vector store (<a target="_blank" href="https://github.com/tantaraio/voy">Voy</a>) and embeddings (<a target="_blank" href="https://huggingface.co/docs/transformers.js/index">Transformers.js</a>) are served via Vercel Edge function and run fully in the browser with no setup required.
-            </span>
-          </li>
-          <li>
-            ⚙️
             <span className="ml-2">
               The default LLM is Llama 2 run locally by Ollama. You&apos;ll need to install <a target="_blank" href="https://ollama.ai">the Ollama desktop app</a> and run the following commands to give this site access to the locally running model:
               <br/>
@@ -190,13 +173,6 @@ export function ChatWindow(props: {
               <br/>
               <pre className="inline-flex px-2 py-1 my-2 rounded">$ OLLAMA_HOST=127.0.0.1:11435 ollama pull mistral</pre>
             </span>
-          </li>
-          <li className="hidden text-l md:block">
-            🦜
-            <span className="ml-2">
-              <a target="_blank" href="https://js.langchain.com">LangChain.js</a> handles orchestration and ties everything together!
-            </span>
-          </li>
           <li className="text-l">
             🐙
             <span className="ml-2">
@@ -214,7 +190,7 @@ export function ChatWindow(props: {
           <li className="text-l">
             👇
             <span className="ml-2">
-              Try embedding a PDF below, then asking questions! You can even turn off your WiFi.
+              Ajoutez votre PDF ici.
             </span>
           </li>
         </ul>
